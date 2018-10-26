@@ -12,13 +12,13 @@
 /**
  * External dependencies
  */
-import { __ } from '@wordpress/i18n';
 import { Component } from '@wordpress/element';
 
 /**
  * Internal dependencies
  */
 import { requestTestPublicizeConnections } from './async-publicize-lib';
+import { __ } from 'gutenberg/extensions/presets/jetpack/utils/i18n';
 
 class PublicizeConnectionVerify extends Component {
 	constructor( props ) {

@@ -9,12 +9,13 @@
 /**
  * External dependencies
  */
-import { __, sprintf } from '@wordpress/i18n';
+import { sprintf } from '@wordpress/i18n';
 import { Component } from '@wordpress/element';
 
 /**
  * Internal dependencies
  */
+import { __ } from 'gutenberg/extensions/presets/jetpack/utils/i18n';
 import { getAllConnections } from './async-publicize-lib';
 
 class PublicizeNoConnections extends Component {

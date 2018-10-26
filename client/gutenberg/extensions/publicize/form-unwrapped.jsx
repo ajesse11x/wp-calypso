@@ -14,7 +14,7 @@
  * External dependencies
  */
 import classnames from 'classnames';
-import { __, _n, sprintf } from '@wordpress/i18n';
+import { sprintf } from '@wordpress/i18n';
 import { Component } from '@wordpress/element';
 
 /**
@@ -22,6 +22,7 @@ import { Component } from '@wordpress/element';
  */
 import PublicizeConnection from './connection';
 import PublicizeSettingsButton from './settings-button';
+import { __, _n } from 'gutenberg/extensions/presets/jetpack/utils/i18n';
 
 class PublicizeFormUnwrapped extends Component {
 	constructor( props ) {
