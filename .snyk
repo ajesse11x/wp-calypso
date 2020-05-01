@@ -1,0 +1,98 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/viewport > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - duplicate-package-checker-webpack-plugin > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - html-webpack-plugin > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - react-redux > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - redux-form > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - webpack-bundle-analyzer > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/editor > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/components > react-color > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-template > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - i18n-calypso > xgettext-js > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - thread-loader > async > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - webpack-rtl-plugin > async > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/editor > @wordpress/nux > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/nux > @wordpress/components > react-dates > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/components > react-color > reactcss > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/editor > @wordpress/nux > @wordpress/data > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/editor > @wordpress/nux > @wordpress/components > react-dates > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/plugins > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/editor > @wordpress/nux > @wordpress/components > react-dates > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - babel-plugin-transform-class-properties > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/wordcount > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/server-side-render > @wordpress/components > react-dates > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @wordpress/rich-text > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/components > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > react-dates > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @wordpress/rich-text > @wordpress/data > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/components > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/server-side-render > @wordpress/components > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @wordpress/rich-text > @wordpress/data > @wordpress/compose > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @emotion/styled > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @wordpress/rich-text > @wordpress/data > @wordpress/compose > @wordpress/element > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
+    - '@wordpress/edit-post > @wordpress/block-library > @wordpress/editor > @wordpress/block-directory > @wordpress/block-editor > @wordpress/components > @emotion/core > @emotion/css > babel-plugin-emotion > @babel/helper-module-imports > @babel/types > lodash':
+        patched: '2020-05-01T07:46:23.136Z'
