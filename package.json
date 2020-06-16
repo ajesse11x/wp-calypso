@@ -203,7 +203,8 @@
     "wpcom-oauth": "0.3.4",
     "wpcom-proxy-request": "5.0.0",
     "wpcom-xhr-request": "1.1.2",
-    "yargs": "12.0.2"
+    "yargs": "12.0.2",
+    "snyk": "^1.341.1"
   },
   "engines": {
     "node": "^10.12.0",
@@ -271,7 +272,9 @@
     "update-deps": "npm run -s rm -- node_modules && npm run -s rm -- npm-shrinkwrap.json && npm install && npm shrinkwrap",
     "postshrinkwrap": "node -e \"fs.utimesSync( './node_modules', new Date(), new Date() );\"",
     "prewhybundled": "cross-env-shell CALYPSO_ENV=production EMIT_STATS=withreasons npm run -s build-client",
-    "whybundled": "whybundled stats.json"
+    "whybundled": "whybundled stats.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "7.0.0",
@@ -325,5 +328,6 @@
       "pre-commit": "npm run -s install-if-no-packages && node bin/pre-commit-hook.js",
       "pre-push": "npm run -s install-if-no-packages && node bin/pre-push-hook.js"
     }
-  }
+  },
+  "snyk": true
 }
