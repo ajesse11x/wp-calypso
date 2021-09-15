@@ -152,7 +152,7 @@
     "percentage-regex": "3.0.0",
     "phone": "git+https://github.com/Automattic/node-phone.git#1.0.8",
     "photon": "2.0.1",
-    "postcss-cli": "6.0.1",
+    "postcss-cli": "7.0.0",
     "postcss-custom-properties": "8.0.8",
     "postcss-loader": "3.0.0",
     "prismjs": "1.15.0",
@@ -196,14 +196,14 @@
     "valid-url": "1.0.9",
     "webpack": "4.20.2",
     "webpack-bundle-analyzer": "3.0.3",
-    "webpack-cli": "3.1.2",
+    "webpack-cli": "4.0.0",
     "webpack-dev-middleware": "3.4.0",
     "webpack-rtl-plugin": "1.7.0",
     "wpcom": "5.4.2",
     "wpcom-oauth": "0.3.4",
     "wpcom-proxy-request": "5.0.0",
     "wpcom-xhr-request": "1.1.2",
-    "yargs": "12.0.2"
+    "yargs": "15.0.1"
   },
   "engines": {
     "node": "^10.12.0",
