@@ -141,7 +141,7 @@
     "markdown-it": "8.4.2",
     "marked": "0.5.1",
     "mini-css-extract-plugin-with-rtl": "github:Automattic/mini-css-extract-plugin-with-rtl",
-    "mkdirp": "0.5.1",
+    "mkdirp": "0.5.2",
     "moment": "2.22.2",
     "morgan": "1.9.1",
     "node-sass": "4.9.4",
