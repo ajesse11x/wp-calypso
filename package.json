@@ -142,7 +142,7 @@
     "marked": "0.5.1",
     "mini-css-extract-plugin-with-rtl": "github:Automattic/mini-css-extract-plugin-with-rtl",
     "mkdirp": "0.5.1",
-    "moment": "2.22.2",
+    "moment": "2.29.2",
     "morgan": "1.9.1",
     "node-sass": "4.9.4",
     "npm-run-all": "4.1.3",
