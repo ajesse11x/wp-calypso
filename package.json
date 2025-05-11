@@ -32,7 +32,7 @@
     "@babel/polyfill": "7.0.0",
     "@babel/preset-env": "7.1.0",
     "@babel/preset-react": "7.0.0",
-    "@babel/runtime": "7.1.2",
+    "@babel/runtime": "7.26.10",
     "@wordpress/a11y": "2.0.2",
     "@wordpress/api-fetch": "2.0.2",
     "@wordpress/babel-plugin-import-jsx-pragma": "1.1.2",
